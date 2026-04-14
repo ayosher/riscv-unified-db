@@ -19,9 +19,7 @@ priv_mode: U
 length: XLEN
 definedBy:
   extension:
-    anyOf:
-      - name: Zcmt
-      - name: Xqccmt
+    name: Zcmt
 fields:
   BASE:
     location_rv64: 63-6
